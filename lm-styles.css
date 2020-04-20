@@ -1,0 +1,72 @@
+body,
+html {
+	background-color: white;
+}
+
+.main {
+	width: 80%
+	margin: auto;
+	display: flex;
+}
+
+.middle-container {
+	width: 100%;
+	margin: auto;
+}
+
+.banner {
+	width: 100%;
+	height: 40vh;
+  	background: url(images/mount-view.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+  	background-border:2px solid black;
+}
+
+.banner > h1 {
+	text-align: center;
+	color: white;
+
+}
+
+.middle {
+	width: 70%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.treesc {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.working {
+	width: 100%;
+}
+
+.full {
+	width: 200px;
+	border: 2px solid orange;
+}
+
+.img {
+	height: 40vh;
+	width: 30vh;
+}
+
+.trees {
+	width: 100%;
+	align-self: center;
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.treesd {
+	align-self: center;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}

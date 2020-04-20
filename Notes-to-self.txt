@@ -1,0 +1,45 @@
+Note to self: 
+
+To make image bg, use this in html:
+{
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+For background or anything gradient use:
+background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+To emphasize text with bootstrap use <strong> </strong>
+
+For <hr> to have color of no black i must use:
+
+border-color:
+
+
+!IMPORTANT!
+
+BOOTSTRAP HAS FLEXBOX, USE THAT WHEN MAKING BOOTSTRAP PAGES!!!!
+BOOTSTRAP HAS H-100 TO MAKE 100VH!!!
+
+Animate.css IS VERY VERY IMPORTANT!!!!
+
+Make banner smaller;
+Make mages smaller.
+Make homepage  text and stuff bigger
